@@ -1,5 +1,5 @@
 function randomInteger(min, max) {
-  let random = min + Math.random() * (max - min);
+  const random = min + Math.random() * (max - min);
   return Math.floor(random);
 }
 
