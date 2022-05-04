@@ -1,5 +1,5 @@
-import userName from '../src/cli.js';
-import askEven from '../src/game/even.js';
+#!/usr/bin/env node
 
-userName();
-askEven(1, 100);
+import askEven from '../src/game/even-game.js';
+
+askEven();
