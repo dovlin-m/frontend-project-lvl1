@@ -1,5 +1,5 @@
-const evenParity = (number) => {
-  if (number % 2 === 0) {
+const evenParity = (num) => {
+  if (num % 2 === 0) {
     return 'yes';
   }
   return 'no';
