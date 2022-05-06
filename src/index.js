@@ -16,7 +16,7 @@ const brainGame = (rules, comparisonOperators) => {
     if (userAnswer === answer) {
       console.log('Correct');
       if (i === 3) {
-        console.log(`Congratulations,  ${name}!`);
+        console.log(`Congratulations, ${name}!`);
       }
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'`);
