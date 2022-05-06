@@ -13,8 +13,7 @@ const creatingProgression = () => {
     arr.push(progression);
   }
 
-  const answer = arr[shadow];
-  answer.toString();
+  const an = arr[shadow];
   arr[shadow] = '..';
   let question = '';
 
@@ -22,7 +21,7 @@ const creatingProgression = () => {
     question += `${arr[i]} `;
   }
 
-  return [question, answer];
+  return [question, an];
 };
 
 export default creatingProgression;

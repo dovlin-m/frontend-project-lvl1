@@ -4,7 +4,8 @@ import brainGame from '../index.js';
 const rules = 'What number is missing in the progression?';
 
 const comparisonOperators = () => {
-  const [question, answer] = creatingProgression();
+  const [question, an] = creatingProgression();
+  const answer = String(an);
   return [question, answer];
 };
 
