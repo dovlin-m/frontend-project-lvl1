@@ -1,13 +1,13 @@
-const getMaximumCommonDivisor = (divisors) => {
+const maximum = (divisors) => {
   let max = divisors[0];
 
-  for (const item of divisors) {
-    if (max < item) {
-      max = item;
+  for (let i = 0; i < divisors.length; i += 1) {
+    if (max < i) {
+      max = i;
     }
   }
 
   return String(max);
 };
 
-export default getMaximumCommonDivisor;
+export default maximum;

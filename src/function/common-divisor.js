@@ -1,10 +1,10 @@
-const getIntersectionOfArrays = (divOne, divTwo) => {
+const intersection = (divOne, divTwo) => {
   const res = [];
 
-  for (const item of divOne) {
-    for (const elm of divTwo) {
-      if (item === elm) {
-        res.push(item);
+  for (let i = 0; i < divOne.length; i += 1) {
+    for (let j = 0; i < divTwo.length; j += 1) {
+      if (i === j) {
+        res.push(i);
       }
     }
   }
@@ -12,4 +12,4 @@ const getIntersectionOfArrays = (divOne, divTwo) => {
   return res;
 };
 
-export default getIntersectionOfArrays;
+export default intersection;
