@@ -1,4 +1,4 @@
-const getIntegerDivisor = (num) => {
+const divisors = (num) => {
   const divisor = [];
 
   for (let i = 1; i <= num; i += 1) {
@@ -10,4 +10,4 @@ const getIntegerDivisor = (num) => {
   return divisor;
 };
 
-export default getIntegerDivisor;
+export default divisors;
