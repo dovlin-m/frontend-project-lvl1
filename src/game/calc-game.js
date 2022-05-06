@@ -1,6 +1,6 @@
 import numberRandom from '../function/number-random.js';
-import mathOperations from "../function/math-operations.js";
-import brainGame from "../index.js";
+import mathOperations from '../function/math-operations.js';
+import brainGame from '../index.js';
 
 const rules = 'What is the result of the expression?';
 
@@ -11,7 +11,7 @@ const comparisonOperators = () => {
   const question = (`${randOne} ${operation} ${randTwo}`);
   const answer = String(eval(question));
   return [question, answer];
-}
+};
 
 const gameCalc = () => brainGame(rules, comparisonOperators);
 

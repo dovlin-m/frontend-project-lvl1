@@ -1,4 +1,4 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
 
 const brainGame = (rules, comparisonOperators) => {
   console.log('Welcome to the Brain Games!');
@@ -11,7 +11,7 @@ const brainGame = (rules, comparisonOperators) => {
     const [question, answer] = comparisonOperators();
     console.log(`Question: ${question}`);
 
-    const userAnswer = readlineSync.question('Your answer: ')
+    const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer === answer) {
       console.log('Correct');
@@ -24,6 +24,6 @@ const brainGame = (rules, comparisonOperators) => {
       break;
     }
   }
-}
+};
 
 export default brainGame;

@@ -1,5 +1,5 @@
 const getIntersectionOfArrays = (divOne, divTwo) => {
-  let res = [];
+  const res = [];
 
   for (const item of divOne) {
     for (const elm of divTwo) {

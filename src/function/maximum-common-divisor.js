@@ -8,6 +8,6 @@ const getMaximumCommonDivisor = (divisors) => {
   }
 
   return String(max);
-}
+};
 
 export default getMaximumCommonDivisor;
